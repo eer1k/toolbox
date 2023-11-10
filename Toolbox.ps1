@@ -45,7 +45,6 @@ New-Button -text "Registriredaktor" -top 360 -action { Start-Process regedit }
 New-Button -text "Task Scheduler" -top 410 -action { Start-Process taskschd.msc }
 New-Button -text "NVIDIA Draiverid" -top 460 -action { Start-Process "https://www.nvidia.com/download/index.aspx" }
 New-Button -text "AMD Draiverid" -top 510 -action { Start-Process "https://www.amd.com/en/support" }
-# Add a button to install Chocolatey
 
 # Add a button to remove Microsoft Edge
 New-Button -text "Remove Edge" -top 560 -action { Remove-MicrosoftEdge }
