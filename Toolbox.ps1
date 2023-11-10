@@ -2,7 +2,7 @@
 
 # Create a form
 $form = New-Object Windows.Forms.Form
-$form.Text = "Eerik-Toolbox™" -left 25
+$form.Text = "Eerik-Toolbox™"
 $form.Width = 220
 $form.Height = 700
 
